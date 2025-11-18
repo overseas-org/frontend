@@ -1,0 +1,20 @@
+
+
+.project-nav-bar li:first-child {
+    /* background-color:aqua; */
+    margin-bottom: 3rem;
+    margin-top: -4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bold {
+    color: aquamarine;
+    font-style: oblique;
+    /* font-weight: bold; */
+}
+.project-nav-bar .selected {
+    background-color: rgba(197, 127, 255, 0.285);
+}

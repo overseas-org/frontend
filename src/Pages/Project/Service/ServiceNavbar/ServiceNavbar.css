@@ -1,0 +1,27 @@
+
+
+.navbar {
+    background-color: #333;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.navbar li {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.navbar li:nth-child(1) {
+    border-top-left-radius: 15px;
+}
+
+.navbar li:hover, .navbar .selected {
+    background-color: #ddd;
+    color: black;
+}
+

@@ -1,0 +1,26 @@
+
+.new-service-deployment-setting-kubernetes {
+    width: 40vw;
+    height: 70vh;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-service-deployment-setting-kubernetes label {
+    font-size: 1.3rem;
+}
+
+.new-service-deployment-setting-kubernetes .port-input {
+    width: 10vw;
+}
+
+.new-service-deployment-setting-kubernetes .kubernetes-deploymet-settings {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-service-deployment-setting-kubernetes .kubernetes-deploymet-settings .component-choise-list {
+    display: flex;
+    flex-direction: column;
+}

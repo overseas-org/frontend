@@ -1,0 +1,29 @@
+.project-page {
+    /* border: 8px solid green; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: 0;
+    left: 0;
+
+}
+
+.project-page .page-main {
+    /* border: 16px solid blue; */
+    
+}
+/* .services-container {
+    min-width: 80vw;
+    min-height: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 2rem;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+} */
+
+

@@ -1,0 +1,29 @@
+.context-menu {
+    position: fixed;
+    background-color: var(--glass-color);
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    border-radius: 10px;
+    z-index: 100; 
+}
+
+.context-menu button {
+    background-color: var(--context-menu);
+    padding: 0.7rem;
+    border: none;
+    border-bottom: 1pt solid var(--context-menu-text);
+}
+.context-menu button:last-child {
+    border-bottom: none;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.context-menu button:first-child {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.context-menu button:hover {
+    background-color: rgba(0, 0, 0, 0.781);
+}

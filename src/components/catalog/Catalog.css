@@ -1,0 +1,30 @@
+
+
+.catalog-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.catalog-page .search-and-new {
+    /* border: solid 6px pink; */
+    display: flex;
+}
+
+
+.catalog-page .search-and-new .new-catalog-button {
+    position: absolute;
+    right: 5rem;
+    top: 1rem;
+    width: 3.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    font-size: 3rem;
+    background-color: var(--button-new);
+    color: var(--button-new-text);
+}
+
+.catalog-page .search-and-new .new-catalog-button:hover {
+    scale: 1.1;
+}

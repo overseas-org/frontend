@@ -1,0 +1,23 @@
+:root {
+    --background-color: #1d1f41;
+    --body-background-color: url("./img/bgs/bg2.jpg");
+    /* --special-color: linear-gradient(45deg, #5f2279, #01175d); */
+    /* --special-color: linear-gradient(45deg, #5f2279, #01175d); */
+    --text-color: rgb(211, 231, 230);
+    --highlight: #030518e1;
+    --highlight-transparent: #cacaca2d;
+    /* --main-color: #3c17ab; */
+    --glass-color: #454e8a3a;
+    --glass-text-color: #030518e1;
+    --side-bar: #030518e1;
+    --login-cover-color: #07091f;
+    --button-new: #121d83e1;
+    --button-new-text: #dddff2;
+    --white-or-black: #fff;
+    --popup-window: #b7b7b7a7;
+    --popup-window-text: #000b11;
+    --green: #1c541cef;
+    --red: #950e0eef;
+    --context-menu: rgba(60, 60, 60, 0.922);
+    --context-menu-text: gray;
+}

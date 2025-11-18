@@ -1,0 +1,79 @@
+
+.endpoints-menu {
+    /* border: 6px green solid; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.endpoints-menu .endpoints {
+    /* border: 6px green solid; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.endpoints-menu .endpoint-button {
+    margin: 0.5rem;
+    color: aliceblue;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.237);
+    cursor: pointer;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+}
+
+.endpoints-menu .endpoint-button:hover {
+    background-color: rgba(240, 248, 255, 0.507);
+    color: rgb(48, 48, 48);
+}
+
+.endpoints-menu .endpoint {
+    display: flex;
+    margin: 1rem;
+
+}
+.endpoints-menu .method {
+    border: solid 1px aliceblue;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.237);
+}
+/* .endpoint-variable {
+    position: relative;
+    left: 2rem;
+    border: 1.5px solid rgb(192, 158, 237);;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.side-info {
+    font-size: 0.8rem;
+    color: rgba(240, 248, 255, 0.479);
+}
+
+.endpoint-button {
+    margin: 0.5rem;
+    color: aliceblue;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.237);
+    cursor: pointer;
+}
+
+.endpoint-button:hover {
+    background-color: rgba(240, 248, 255, 0.507);
+    color: rgb(48, 48, 48);
+} */

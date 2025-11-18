@@ -1,0 +1,45 @@
+.scrollable {
+    overflow-y: auto;
+    height: 65vh;
+    border-bottom: 0.5px solid #ccc;
+    scrollbar-color: rgb(195, 184, 231) rgba(0, 0, 0, 0); /* Firefox only */
+}
+
+
+.endpoint-box {
+    border: 2px solid #ccc;
+    border-radius: 5%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.endpoint-box input, .endpoint-box select {
+    padding: 0.5rem;
+}
+
+.endpoint-box button{
+    position: relative;
+}
+
+.endpoint-box .remove-button {
+    width: 25%;
+    font-size: 1.5rem;
+    background-color: rgba(88, 5, 5, 0.765);
+}
+
+.new-service-form .add-endpoint-button {
+    /* background-color: aqua; */
+    bottom: 13%;
+}
+
+.new-service-form .endpoints-next {
+    /* background-color: aqua; */
+    bottom: 3%;
+}
+
+.variable-box {
+    border: 2px solid #ccc;
+    border-radius: 5%;
+    margin: 1rem;
+    padding: 1rem;
+}

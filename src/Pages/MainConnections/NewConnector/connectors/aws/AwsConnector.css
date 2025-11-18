@@ -1,0 +1,14 @@
+.aws-connector-form {
+    width: 40vw;
+    height: fit-content;
+    margin: 5vh 10vw;
+    
+}
+
+.aws-connector-form .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/*  */

@@ -1,0 +1,91 @@
+.logout-box {
+    margin-top: 0.5rem;
+    position: absolute;
+    width: 15vw;
+    height: 15%;
+    display: flex;
+    top: 1rem;
+    left: 1rem;
+    height: 18vh;
+    width: 20vw;
+}
+
+.logout-box menu {
+    padding: 0;
+    position: absolute;
+    left: 1rem;
+    top: 3rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    width: 10vw;
+    border-radius: 10px;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.logout-box menu div:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+.logout-box menu div:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+.logout-box menu div {
+    /* border: 2px red solid; */
+    width: 100%;
+    padding: 0.3rem 0;
+    text-align: center;
+}
+
+.logout-box menu div:hover {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+.logout-box .icon {
+    width: 40px;
+    height: 40px;
+    /* background-color: aqua; */
+}
+
+.logout-box .user-button {
+    /* border: 1px red solid; */
+    background-color: rgba(208, 182, 241, 0.169);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem; 
+    margin-left: 0.4rem;
+    border: none;
+}
+
+.user-button:hover .icon {
+    content: url("../../img/icons/user-black.png");
+  }
+
+.logout-box .user-button:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+.logout-box label {
+    margin: 0 0.3rem;
+    margin-left: 0.7rem;
+    padding: 0;
+}
+
+.logout-box .account {
+    margin-top: 0.5rem;
+    font-size: small;
+}
+
+.logout-box .content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+

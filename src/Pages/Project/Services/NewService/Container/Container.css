@@ -1,0 +1,13 @@
+
+.back-button.top{
+    display: flex;
+    
+
+    background-color: #1d1c6100;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    position:inherit;
+    border: none;
+}

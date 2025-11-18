@@ -1,0 +1,22 @@
+.jenkins-connector-form {
+    min-width: 20vw;
+    min-height: 55vh;
+    height: fit-content;
+    /* padding: 0.3rem; */
+}
+
+.jenkins-connector-form .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.jenkins-connector-form .content * {
+    margin: 0.2rem;
+}
+.jenkins-connector-form .content input {
+    height: 10px;
+}
+
+.jenkins-connector-form .form-buttons {
+    justify-content: center;
+}

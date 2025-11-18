@@ -1,0 +1,27 @@
+.connector-box {
+    width: 20vw;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin: 1.5rem;
+}
+
+.connector-box:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.connector-box * {
+    cursor: pointer;
+}
+.connector-box .connector-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.connector-box .connector-type {
+    font-size: 1rem;
+}
+

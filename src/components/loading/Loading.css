@@ -1,0 +1,18 @@
+.loading-component {
+    width: 5rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 10px solid var(--highlight);
+    border-bottom-color: var(--highlight-transparent);
+    margin: 1rem;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

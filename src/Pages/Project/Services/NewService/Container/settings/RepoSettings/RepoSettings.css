@@ -1,0 +1,27 @@
+
+.repo-form {
+    width: 30vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.repo-form h1 {
+    /* margin: 1rem;
+    margin-top: 2rem; */
+    text-align: center;
+}
+
+.repo-form .info-block {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    /* margin: 1rem; */
+}
+
+.repo-form .next-button {
+    background-color: var(--green);
+}
+

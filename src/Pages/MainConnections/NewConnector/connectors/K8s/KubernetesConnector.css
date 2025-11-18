@@ -1,0 +1,19 @@
+
+.kubernetes-connector-form {
+    width: 45vw;
+    height: 65vh;
+    height: fit-content;
+}
+
+.kubernetes-connector-form .form-title {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.kubernetes-connector-form .content {
+    margin-bottom: 2rem;
+}
+
+.kubernetes-connector-form .form-buttons {
+    justify-content: center;
+}

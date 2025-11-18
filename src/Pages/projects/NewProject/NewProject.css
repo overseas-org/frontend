@@ -1,0 +1,57 @@
+.new-project-form {
+    border: var(--popup-window-text) 1px solid;
+    height: 72vh;
+    width: 35vw;
+    padding: 1.5em;
+    margin: 10vh 10vw;
+    font-size: 1.3rem;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--popup-window);
+    color: var(--popup-window-text);
+    border-radius: 25px ;
+}
+
+input, select {
+    background-color: inherit;
+    color: inherit;
+    font-size: inherit;
+    margin: 1rem 0.4rem 0.8rem;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+label {
+    font-size: inherit;
+    margin: 0.5rem 0.6rem ;
+}
+
+.new-project-form button {
+    background-color: #333333ac;
+    font-size: 1.5rem;
+    margin: 2vh;
+    justify-self: center;
+    padding: 0.5em;
+    border-radius: 15px;
+    border: var(--white-or-black) solid 1px;
+    /* width: 75%; */
+    /* position: absolute;
+    bottom: 2%;
+    left: 9% */
+}
+
+
+.new-project-form button.submit {
+    background-color: var(--green);
+}
+
+.new-project-form button.cancel {
+    background-color: var(--red);
+}
+
+.new-project-form button:hover {
+    transform: scale(1.06);
+}
+

@@ -1,0 +1,28 @@
+.azure-connector-form {
+    height: fit-content;
+    min-width: 45vw;
+    /* padding: 3rem;
+    min-width: 20vw;
+    min-height: 85vh;
+    margin: 5vh 10vw;
+    position: absolute; */
+    
+}
+
+.azure-connector-form .content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+.azure-connector-form .content input {
+    width: 70%;
+    align-self: center;
+    height: 1rem;
+}
+
+.azure-connector-form .form-buttons {
+    justify-content: center;
+}
+
+/*  */

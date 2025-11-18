@@ -1,0 +1,44 @@
+.login-container {
+    padding: 1rem;
+    height: 95vh;
+    width: 45vw;
+}
+
+.login-container div {
+    display: flex;
+    flex-direction: column;
+}
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.login-container input {
+    margin: 1rem;
+    /* position: absolute; */
+    width: 80%;
+    /* right: 1rem; */
+}
+
+.login-container button {
+    padding: 1rem;
+    margin: 0.3rem;
+    border-radius: 15px;
+    position: absolute;
+    width: 80%;
+    bottom: 1rem;
+    background-color: rgba(0, 60, 255, 0.587);
+}
+
+.login-container button:hover{
+    transform: scale(1.04);
+}
+
+.login-container .login{
+    bottom: 5rem;
+    background-color: rgba(0, 128, 0, 0.539);
+}

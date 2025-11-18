@@ -1,0 +1,11 @@
+
+.continue-button {
+    background-color: var(--green);
+    padding: 0.5rem;
+    border-radius: 15px;
+    border: solid 1px var(--white-or-black);
+    color: var(--white-or-black);
+    font-size: 2rem;
+    margin: 0.3rem;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.catalog-view-page {
+    height: 100%;
+    width: 95%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog-view-page .catalogs-view-columns-container {
+    /* border: 6px solid red; */
+    height: 74vh;
+    margin: 1rem;
+    width: 100%;
+    background-color: var(--highlight-transparent);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.catalog-view-page .move {
+    display: flex;
+    align-self: center;
+    gap: 2rem;
+    position: absolute;
+    bottom: 00.5rem;
+}
+
+.catalog-view-page .move div {
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.catalog-view-page .move div:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+

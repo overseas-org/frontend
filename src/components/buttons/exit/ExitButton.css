@@ -1,0 +1,16 @@
+
+.exit-button {
+    position: absolute;
+
+    top: 1rem;
+    left: 1rem;
+    font-size: 1.3rem;
+    padding: 0.1rem 0.4rem;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 8px;
+    /* background-color: rgba(112, 35, 30, 0.822);
+    padding: 0.5rem;
+    border-radius: 15px;
+    font-size: 2rem;
+    margin: 0.3rem; */
+}

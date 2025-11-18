@@ -1,0 +1,210 @@
+
+.login-page {
+    border-radius: 15px;
+    border: var(--text-color) solid 1px;
+    width: 60vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: (--background-color);
+}
+
+.login-page .sign-in {
+    transition: 1s;
+    animation-name: fadeLeft, fade;
+    animation-duration: 1s;
+    border-radius: 15px 0 0 15px;
+}
+
+.login-page .sign-up {
+    animation-name: fadeRight, fade;
+    animation-duration: 1s;
+    border-radius: 0 15px 15px 0;
+}
+
+.login-page .form-block {
+    border: var(--text-color) solid 1px;
+    width: 30vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}   
+
+.login-page .info-input {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-page .info-input input {
+    border-radius: 15px;
+    width: 20vw;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    font-size: inherit;
+    color: inherit;
+    background-color: inherit;
+    border: 1px var(--text-color) solid;
+}
+
+.login-page .cover {
+    z-index: 9999;
+    background: var(--login-cover-color);
+}
+
+.login-page .sign-up.cover {
+    right: 0;
+    animation-name: fadeRight;
+    animation-duration: 1s;
+}
+
+.login-page .sign-in.cover {
+    left: 0;
+    animation-name: fadeLeft;
+    animation-duration: 1s;
+}
+
+.login-page .sign-up .info-input.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    /* border-bottom: 1px var(--text-color) solid; */
+}
+.login-page .line{
+    width: 80%;
+}
+
+.login-page .sign-up .info-input.name .name-part {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-page input:hover{
+    scale: 1.1;
+}
+
+.login-page .sign-up .info-input.name input{
+    /* margin-left: 1rem; */
+    width: 50%;
+}
+
+.login-page button {
+    padding: 0.6rem;
+    border-radius: 15px;
+    border: 1px var(--highlight) solid;
+    background-color: var(--text-color);
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--highlight);
+    cursor: pointer;
+}   
+
+.login-page button:hover {
+    scale: 1.1;
+    background-color: var(--text-color);
+    color: var(--highlight);
+    border: 2px var(--highlight) solid; 
+}
+
+.login-page .sso {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    bottom: 1rem;
+}
+
+.login-page .active-button {
+    background: var(--login-cover-color);
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
+.google-sso {
+    margin: 1rem;
+}
+
+.google-sso:hover {
+    scale: 1.1;
+    /* animation: growOut 400ms; */
+}
+
+.login-page .chose-account select {
+    padding: 0.5rem;
+    border-radius: 15px;
+    background: transparent;
+    color: inherit;
+    font-size: inherit;
+    margin-bottom: 10vh ;
+    width: 18vw;
+}
+
+.login-page .chose-account option {
+    border: none;
+    border-radius: 15px;
+    background-color: var(--highlight);
+    color: var(--text-color);
+}
+
+.login-page .chose-account input {
+    width: 15vw;
+}
+
+.login-page .chose-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@keyframes growOut {
+    from {
+        width: 0;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+
+@keyframes fadeRight {
+    from {
+        transform: translateX(-30vw);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeLeft {
+    from {
+        transform: translateX(30vw);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fade{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.error {
+    margin: 1rem;
+    /* margin-top: 1rem; */
+    color: rgb(255, 24, 24);
+    font-size: 0.7;
+}

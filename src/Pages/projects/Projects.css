@@ -1,0 +1,43 @@
+.projects-page {
+    height: 90vh;
+    /* border: red solid 3px ;  */
+}
+
+.projects-page .projects-catalog {
+    /* border: red solid 3px ; */
+    height: 90vh;
+}
+
+.projects-page .projects-catalog .projects-title {
+    background-color: var(--glass-color);
+    color: var(--highlight);
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+}
+
+.projects-page .projects-catalog .new-project-button {
+    width: 4rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    font-size: 3rem;
+    position: absolute;
+    bottom: 3rem;
+    right: 10vw;
+    z-index: 99;
+    background-color: var(--button-new);
+    color: var(--button-new-text);
+}
+
+.projects-page .projects-catalog .new-project-button:hover {
+    scale: 1.1;
+}
+
+.projects-page .projects-catalog .projects {
+    /* border: red solid 3px ; */
+    height: 75%;
+    padding: 2rem 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

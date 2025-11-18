@@ -1,0 +1,79 @@
+
+.apperview {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apperview .apper-page {
+    /* border: solid 4px green; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.apperview .apper-page-header {
+    /* border: solid 4px blue; */
+    height: 20vh;
+}
+
+.apperview .apper-page-header .new-button {
+    top: 3vh;
+    right: 15vw;
+    bottom: unset;
+    margin: 0;
+}
+
+.apperview .apperview-canvas {
+    /* border: solid 4px red; */
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.connect-button{
+    position: absolute;
+    right: 2vw;
+    top: 3vh;
+    background-color: rgba(17, 51, 63, 0.815);
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+/* 
+.apper-page {
+    position: absolute;
+    margin-left: 3rem;
+    display: flex;
+    flex-wrap:wrap;
+    width: 75%;
+    height: 90%;
+    background: #0000004b;
+    border-radius: 15px;
+    border: none;
+}
+
+
+.appviewer-service-dragable {
+    position: fixed;
+}
+
+.apper p {
+    margin: 6rem 0;
+}
+
+.apper p:last-child {
+    margin-top: 17rem;
+}
+.connect-button{
+    position: absolute;
+    right: 0;
+    background-color: rgba(210, 210, 210, 0.297);
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0 15px;
+} */

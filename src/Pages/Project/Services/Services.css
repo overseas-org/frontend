@@ -1,0 +1,54 @@
+
+.service-page {
+    border: solid 5px red;
+    height: 100%;
+}
+
+
+.services {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.service .search-bar {
+    margin-bottom: 1rem;
+    /* position: absolute;
+    left: 6.5rem;
+    top: 0;
+    margin-top: 0rem; */
+}
+.new-button {
+    width: 12vh;
+    aspect-ratio: 1/1;
+    margin: 1rem;
+    font-size: 3rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 3rem;
+    border-radius: 50px;
+    background-color: rgba(18, 187, 136, 0.548);
+}
+
+.new-button:hover {
+    transform: scale(1.4);
+}
+
+.service-boxs-containers {
+    border: solid 7px blue;
+    flex: 1;
+}
+.service-boxs-containers {
+    /* position: absolute; */
+    /* top: 3.5rem; */
+    /* margin: 3rem; */
+    /* display: flex; */
+    /* flex-wrap:wrap; */
+    /* width: 75%; */
+    /* height: 75%; */
+    /* align-items: center; */
+    /* justify-content: centers; */
+    /* background: #0000004b; */
+    /* border-radius: 15px; */
+}
+

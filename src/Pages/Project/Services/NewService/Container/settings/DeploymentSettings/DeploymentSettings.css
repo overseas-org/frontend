@@ -1,0 +1,29 @@
+
+.new-service-deployment-setting-type {
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.new-service-deployment-setting-type .info-block.deployment-type {
+    flex-direction: row;
+    margin: 1.5rem 0;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.new-service-deployment-setting-type .info-block.deployment-type .deployment-type-input {
+    /* padding: 0.7rem;
+    border: var(--popup-window-text) solid;
+    border-radius: 1rem; */
+    font-weight: 400;
+}
+
+.new-service-deployment-setting-type select {
+    width: 30vw;
+}

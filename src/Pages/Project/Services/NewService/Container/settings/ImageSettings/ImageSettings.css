@@ -1,0 +1,18 @@
+
+.new-service-image-setting {
+    width: 35vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .new-service-image-setting h1 {
+    margin: 1rem;
+    margin-top: 3rem;
+} */
+
+.new-service-image-setting select, .new-service-image-setting input{
+    width: 27vw;
+}

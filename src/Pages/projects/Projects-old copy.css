@@ -1,0 +1,34 @@
+body, html {
+    overflow: hidden;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    height: 77%;
+    width: 80%; 
+    padding: 4rem 15rem;
+}
+
+.projects-title{
+    background-color: var(--glass-color);
+    margin-top: 4rem;
+    padding: 1rem;
+    padding-left: 7rem;
+}
+
+
+.projects-catalog .new-project-button {
+    background-color: var(--highlight);
+    width: 5vw;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    font-size: 2rem;
+    position: absolute;
+    top: 25vh;
+    right: 10vw;
+    z-index: 99;
+}

@@ -1,0 +1,52 @@
+.github-connector-form {
+    font-size: 1rem;
+    display: flex;
+}
+
+.github-connector-form .content {
+    height: 80vh;
+    height: fit-content;
+    width: 65vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.github-connector-form input[type="text"] {
+    height: 0.1rem;
+    width: 20vw;
+}
+
+.github-connector-form select {
+    padding: 0.5rem;
+}
+
+.github-connector-form .content .column {
+    display: flex;
+    flex-direction: column;
+}
+
+.github-connector-form .first-column {
+    /* border: solid 5px red; */
+    position: absolute;
+    top: 4rem;
+}
+
+.github-connector-form .second-column {
+    padding-top: 1rem;
+    height: 70%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.github-connector-form .pat-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .github-connector-form .form-buttons {
+    display: flex;
+    justify-content: flex-end;
+} */

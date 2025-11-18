@@ -1,0 +1,33 @@
+
+.connector-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-top: 3rem;
+    background-color: var(--popup-window);
+    color: var(--popup-window-text);
+}
+
+.connector-form .form-label-input {
+    flex-direction: column;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.connector-form .form-buttons {
+    /* border: solid red 6px; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.connector-form .content input[type=text] {
+    width: 70%;
+    align-self: center;
+    height: 1rem;
+}
+
+.connector-form h1 {
+    font-size: 1.5rem;
+    margin: 1rem;
+    /* color: var() */
+}
