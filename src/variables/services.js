@@ -1,5 +1,5 @@
-export const account = "http://localhost:5000";
-export const connector = "http://localhost:5001";
-export const projectEndpoint = "http://localhost:5002";
-export const serviceEndpoint = "http://localhost:5003";
-export const auth = "http://127.0.0.1:5005";
+export const account = "http://account:5000";
+export const connector = "http://connection:5000";
+export const projectEndpoint = "http://project:5000";
+export const serviceEndpoint = "http://service:5000";
+export const auth = "http://auth:5000";
