@@ -1,31 +1,16 @@
-# ---- Build Stage ----
-FROM node:18-alpine AS build
+FROM node:18-alpine
 
 WORKDIR /app
 
-# Copy package files first for caching
+# Install dependencies first
 COPY package*.json ./
-
-# Install dependencies
 RUN npm install
 
-# Copy the rest of the project
+# Copy everything
 COPY . .
 
-# Build the production version
-RUN npm run build
+# Expose default React dev port
+EXPOSE 3000
 
-# ---- Production Stage (NGINX) ----
-FROM nginx:stable-alpine
-
-# Remove default nginx website
-RUN rm -rf /usr/share/nginx/html/*
-
-# Copy build output to NGINX directory
-COPY --from=build /app/build /usr/share/nginx/html
-
-# Expose port 80
-EXPOSE 80
-
-# Start NGINX
-CMD ["nginx", "-g", "daemon off;"]
+# Start React dev server
+CMD ["npm", "start"]
