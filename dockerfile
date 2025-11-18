@@ -1,18 +1,31 @@
-# Use an official lightweight Python image
-FROM python:3.9-slim
+# ---- Build Stage ----
+FROM node:18-alpine AS build
 
-# Set the working directory inside the container
 WORKDIR /app
 
-# Copy only the necessary files
-COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy package files first for caching
+COPY package*.json ./
 
-# Copy the rest of the application
+# Install dependencies
+RUN npm install
+
+# Copy the rest of the project
 COPY . .
 
-# Expose the port Flask runs on
-EXPOSE 5000
+# Build the production version
+RUN npm run build
 
-# Run the application
-CMD ["python", "app.py"]
+# ---- Production Stage (NGINX) ----
+FROM nginx:stable-alpine
+
+# Remove default nginx website
+RUN rm -rf /usr/share/nginx/html/*
+
+# Copy build output to NGINX directory
+COPY --from=build /app/build /usr/share/nginx/html
+
+# Expose port 80
+EXPOSE 80
+
+# Start NGINX
+CMD ["nginx", "-g", "daemon off;"]
