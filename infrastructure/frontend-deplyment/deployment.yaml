@@ -17,16 +17,9 @@ spec:
         app: frontend
         service: frontend
     spec:
-      volumes:
-      - name: frontend-volume
-        persistentVolumeClaim:
-          claimName: frontend
       containers:
       - name: frontend-container
         image: hhana982/frontend:1.<version>
         ports:
         - containerPort: 3000
-        volumeMounts:
-        - mountPath: "/"
-          name: frontend-volume
         env: 
